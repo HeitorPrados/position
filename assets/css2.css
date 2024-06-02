@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.div1 {
+    height: 10vh;
+    background-color: #203788;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.div2 {
+    width: 200px;
+    height: 30px;
+    background-color: #B6FFDC;
+    position: relative;
+}
+
+.div3 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    
+}
